@@ -11,18 +11,31 @@
           <ion-title size="large">หน้าหลัก</ion-title>
         </ion-toolbar>
       </ion-header>
-    
+
       <ExploreContainer name="หน้าหลัก" />
     </ion-content>
   </ion-page>
 </template>
 
 <script lang="ts">
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import ExploreContainer from '@/components/ExploreContainer.vue';
+import {
+  IonPage,
+  IonHeader,
+  IonToolbar,
+  IonTitle,
+  IonContent,
+} from "@ionic/vue";
+import ExploreContainer from "@/components/ExploreContainer.vue";
 
-export default  {
-  name: 'Home',
-  components: { ExploreContainer, IonHeader, IonToolbar, IonTitle, IonContent, IonPage }
-}
+export default {
+  name: "Home",
+  components: {
+    ExploreContainer,
+    IonHeader,
+    IonToolbar,
+    IonTitle,
+    IonContent,
+    IonPage,
+  },
+};
 </script>
